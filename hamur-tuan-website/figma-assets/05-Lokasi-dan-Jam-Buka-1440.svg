@@ -1,0 +1,153 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 860" width="1440" height="860">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Playfair+Display:ital,wght@1,600&amp;display=swap');
+      .font-brand { font-family: 'Montserrat', sans-serif; font-weight: 900; }
+      .font-heading { font-family: 'Montserrat', sans-serif; font-weight: 800; }
+      .font-body { font-family: 'Plus Jakarta Sans', sans-serif; }
+      .font-serif { font-family: 'Playfair Display', Georgia, serif; font-style: italic; }
+      .shadow-card { filter: drop-shadow(0 10px 25px rgba(60, 21, 12, 0.08)); }
+      .shadow-hero { filter: drop-shadow(0 20px 45px rgba(0, 0, 0, 0.5)); }
+      .shadow-badge { filter: drop-shadow(0 4px 14px rgba(242, 199, 145, 0.3)); }
+    </style>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#230a05"/>
+      <stop offset="45%" stop-color="#3C150C"/>
+      <stop offset="80%" stop-color="#542214"/>
+      <stop offset="100%" stop-color="#2a0e07"/>
+    </linearGradient>
+    <linearGradient id="ctaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180502"/>
+      <stop offset="50%" stop-color="#3C150C"/>
+      <stop offset="100%" stop-color="#1e0b06"/>
+    </linearGradient>
+    <clipPath id="heroKettleClip">
+      <rect width="480" height="520" rx="24"/>
+    </clipPath>
+    <clipPath id="cardImgClip">
+      <rect width="285" height="190" rx="16"/>
+    </clipPath>
+  </defs>  <rect width="1440" height="860" fill="#FFFFFF"/>
+
+  <!-- Section Header -->
+  <g transform="translate(720, 50)" text-anchor="middle">
+    <rect x="-70" y="0" width="140" height="30" rx="15" fill="#F2C791" fill-opacity="0.25"/>
+    <text x="0" y="20" class="font-body" font-size="12" font-weight="800" fill="#3C150C" letter-spacing="1.5">KUNJUNGI KAMI</text>
+    <text x="0" y="65" class="font-brand" font-size="38" fill="#3C150C" letter-spacing="1">LOKASI &amp; JAM OPERASIONAL</text>
+    <text x="0" y="95" class="font-body" font-size="15" fill="#695E59">Singgah dan nikmati suasana hangat coffeeshop kami yang strategis di kawasan Blimbing, Kota Malang.</text>
+  </g>
+
+  <g transform="translate(100, 180)">
+    <!-- Left Column: Address & Hours Cards -->
+    <g transform="translate(0, 0)">
+      <!-- Address Card -->
+      <g transform="translate(0, 0)">
+        <rect width="580" height="210" rx="18" fill="#FBF8F3" stroke="#3C150C" stroke-opacity="0.1" class="shadow-card"/>
+        <rect x="24" y="24" width="44" height="44" rx="12" fill="#3C150C"/>
+        <text x="46" y="52" font-size="20" fill="#F2C791" text-anchor="middle">ðŸ“</text>
+
+        <text x="80" y="52" class="font-brand" font-size="18" fill="#3C150C">ALAMAT COFFEESHOP</text>
+        <text x="24" y="95" class="font-body" font-size="15" font-weight="700" fill="#3C150C">Hamur Tuan Coffeeshop</text>
+        <text x="24" y="118" class="font-body" font-size="14" fill="#695E59">Jl. Letjen S. Parman No. 56, Kel. Purwantoro, Kec. Blimbing, Kota Malang</text>
+
+        <rect x="24" y="145" width="270" height="42" rx="21" fill="#3C150C"/>
+        <text x="159" y="171" class="font-body" font-size="13" font-weight="800" fill="#F2C791" text-anchor="middle">Buka Petunjuk Arah di Maps â†’</text>
+      </g>
+
+      <!-- Operational Hours Card with Live Status -->
+      <g transform="translate(0, 230)">
+        <rect width="580" height="230" rx="18" fill="#FBF8F3" stroke="#3C150C" stroke-opacity="0.1" class="shadow-card"/>
+        <rect x="24" y="24" width="44" height="44" rx="12" fill="#3C150C"/>
+        <text x="46" y="52" font-size="20" fill="#F2C791" text-anchor="middle">â°</text>
+
+        <text x="80" y="52" class="font-brand" font-size="18" fill="#3C150C">JAM OPERASIONAL</text>
+
+        <!-- Hours Table -->
+        <g transform="translate(24, 90)">
+          <text x="0" y="0" class="font-body" font-size="14" font-weight="700" fill="#3C150C">Senin â€“ Kamis</text>
+          <text x="532" y="0" class="font-body" font-size="14" font-weight="600" fill="#695E59" text-anchor="end">10:00 â€“ 23:00 WIB</text>
+          
+          <line x1="0" y1="12" x2="532" y2="12" stroke="#3C150C" stroke-opacity="0.08"/>
+
+          <text x="0" y="32" class="font-body" font-size="14" font-weight="700" fill="#3C150C">Jumat</text>
+          <text x="532" y="32" class="font-body" font-size="14" font-weight="600" fill="#695E59" text-anchor="end">13:00 â€“ 00:00 WIB</text>
+          
+          <line x1="0" y1="44" x2="532" y2="44" stroke="#3C150C" stroke-opacity="0.08"/>
+
+          <text x="0" y="64" class="font-body" font-size="14" font-weight="700" fill="#3C150C">Sabtu â€“ Minggu</text>
+          <text x="532" y="64" class="font-body" font-size="14" font-weight="600" fill="#695E59" text-anchor="end">10:00 â€“ 00:00 WIB</text>
+        </g>
+
+        <!-- Live Status Pill -->
+        <g transform="translate(24, 180)">
+          <rect width="532" height="34" rx="8" fill="#FFFFFF" stroke="#3C150C" stroke-opacity="0.1"/>
+          <circle cx="20" cy="17" r="5" fill="#22C55E"/>
+          <text x="32" y="21" class="font-body" font-size="12" font-weight="800" fill="#16A34A">SEDANG BUKA</text>
+          <text x="515" y="21" class="font-body" font-size="12" font-weight="700" fill="#3C150C" text-anchor="end">Tutup pukul 23:00 WIB</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right Column: Interactive Map Frame -->
+    <g transform="translate(620, 0)">
+      <rect width="620" height="460" rx="20" fill="#e8ecef" stroke="#3C150C" stroke-opacity="0.15" class="shadow-card"/>
+      
+      <!-- Mock Map Roads & Graphics -->
+      <path d="M 0 140 Q 200 160 400 110 T 620 180" stroke="#FFFFFF" stroke-width="24" fill="none"/>
+      <path d="M 0 140 Q 200 160 400 110 T 620 180" stroke="#FFC107" stroke-width="4" stroke-dasharray="10,8" fill="none"/>
+      <path d="M 320 0 L 320 460" stroke="#FFFFFF" stroke-width="20" fill="none"/>
+      <path d="M 120 0 L 120 460" stroke="#FFFFFF" stroke-width="12" fill="none"/>
+      <path d="M 480 0 L 480 460" stroke="#FFFFFF" stroke-width="14" fill="none"/>
+      <rect x="180" y="200" width="120" height="90" rx="8" fill="#d2d8de"/>
+      <rect x="350" y="220" width="100" height="70" rx="8" fill="#d2d8de"/>
+
+      <!-- Map Pin Marker for Hamur Tuan -->
+      <g transform="translate(320, 120)">
+        <ellipse cx="0" cy="40" rx="18" ry="6" fill="#000000" opacity="0.25"/>
+        <path d="M 0 0 C -22 0, -35 15, -35 32 C -35 52, 0 80, 0 80 C 0 80, 35 52, 35 32 C 35 15, 22 0, 0 0 Z" fill="#3C150C"/>
+        <circle cx="0" cy="30" r="14" fill="#F2C791"/>
+        <text x="0" y="35" class="font-brand" font-size="12" fill="#3C150C" text-anchor="middle">H</text>
+
+        <!-- Callout Pin Card -->
+        <rect x="-100" y="-55" width="200" height="44" rx="10" fill="#FFFFFF" stroke="#3C150C" stroke-width="1" class="shadow-card"/>
+        <text x="0" y="-35" class="font-brand" font-size="12" fill="#3C150C" text-anchor="middle">HAMUR TUAN BLIMBING</text>
+        <text x="0" y="-20" class="font-body" font-size="10" fill="#996A3D" text-anchor="middle">Jl. Letjen S. Parman 56</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 4 Facilities Row (Bottom) -->
+  <g transform="translate(100, 680)">
+    <!-- Facility 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="290" height="110" rx="16" fill="#FBF8F3" stroke="#3C150C" stroke-opacity="0.1"/>
+      <text x="24" y="45" font-size="28">ðŸ“¶</text>
+      <text x="65" y="40" class="font-heading" font-size="14" fill="#3C150C">Free High-Speed Wi-Fi</text>
+      <text x="65" y="60" class="font-body" font-size="11" fill="#695E59">Koneksi cepat untuk nugas &amp; kerja WFC.</text>
+    </g>
+
+    <!-- Facility 2 -->
+    <g transform="translate(316, 0)">
+      <rect width="290" height="110" rx="16" fill="#FBF8F3" stroke="#3C150C" stroke-opacity="0.1"/>
+      <text x="24" y="45" font-size="28">ðŸ”Œ</text>
+      <text x="65" y="40" class="font-heading" font-size="14" fill="#3C150C">Stopkontak Tiap Meja</text>
+      <text x="65" y="60" class="font-body" font-size="11" fill="#695E59">Daya laptop &amp; smartphone selalu terjamin.</text>
+    </g>
+
+    <!-- Facility 3 -->
+    <g transform="translate(632, 0)">
+      <rect width="290" height="110" rx="16" fill="#FBF8F3" stroke="#3C150C" stroke-opacity="0.1"/>
+      <text x="24" y="45" font-size="28">ðŸƒ</text>
+      <text x="65" y="40" class="font-heading" font-size="14" fill="#3C150C">Indoor AC &amp; Semi-Outdoor</text>
+      <text x="65" y="60" class="font-body" font-size="11" fill="#695E59">Area sejuk ber-AC &amp; smoking area santai.</text>
+    </g>
+
+    <!-- Facility 4 -->
+    <g transform="translate(948, 0)">
+      <rect width="292" height="110" rx="16" fill="#FBF8F3" stroke="#3C150C" stroke-opacity="0.1"/>
+      <text x="24" y="45" font-size="28">ðŸŽ¸</text>
+      <text x="65" y="40" class="font-heading" font-size="14" fill="#3C150C">Gitar Akustik &amp; Games</text>
+      <text x="65" y="60" class="font-body" font-size="11" fill="#695E59">Kartu &amp; gitar untuk kumpul seru teman.</text>
+    </g>
+  </g>
+</svg>

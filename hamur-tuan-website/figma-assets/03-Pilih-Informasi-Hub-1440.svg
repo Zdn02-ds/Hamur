@@ -1,0 +1,144 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 680" width="1440" height="680">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Playfair+Display:ital,wght@1,600&amp;display=swap');
+      .font-brand { font-family: 'Montserrat', sans-serif; font-weight: 900; }
+      .font-heading { font-family: 'Montserrat', sans-serif; font-weight: 800; }
+      .font-body { font-family: 'Plus Jakarta Sans', sans-serif; }
+      .font-serif { font-family: 'Playfair Display', Georgia, serif; font-style: italic; }
+      .shadow-card { filter: drop-shadow(0 10px 25px rgba(60, 21, 12, 0.08)); }
+      .shadow-hero { filter: drop-shadow(0 20px 45px rgba(0, 0, 0, 0.5)); }
+      .shadow-badge { filter: drop-shadow(0 4px 14px rgba(242, 199, 145, 0.3)); }
+    </style>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#230a05"/>
+      <stop offset="45%" stop-color="#3C150C"/>
+      <stop offset="80%" stop-color="#542214"/>
+      <stop offset="100%" stop-color="#2a0e07"/>
+    </linearGradient>
+    <linearGradient id="ctaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180502"/>
+      <stop offset="50%" stop-color="#3C150C"/>
+      <stop offset="100%" stop-color="#1e0b06"/>
+    </linearGradient>
+    <clipPath id="heroKettleClip">
+      <rect width="480" height="520" rx="24"/>
+    </clipPath>
+    <clipPath id="cardImgClip">
+      <rect width="285" height="190" rx="16"/>
+    </clipPath>
+  </defs>  <rect width="1440" height="680" fill="#FFFFFF"/>
+
+  <!-- Section Header -->
+  <g transform="translate(720, 60)" text-anchor="middle">
+    <rect x="-80" y="0" width="160" height="30" rx="15" fill="#F2C791" fill-opacity="0.25"/>
+    <text x="0" y="20" class="font-body" font-size="12" font-weight="800" fill="#3C150C" letter-spacing="1.5">PANDUAN KUNJUNGAN</text>
+    <text x="0" y="65" class="font-brand" font-size="38" fill="#3C150C" letter-spacing="1">PILIH INFORMASI</text>
+    <text x="0" y="95" class="font-body" font-size="15" fill="#695E59">Sesuai alur kunjungan Anda, pilih salah satu informasi utama yang ingin Anda jelajahi di Hamur Tuan Coffeeshop:</text>
+  </g>
+
+  <!-- 3 Big Cards Grid -->
+  <g transform="translate(100, 190)">
+    <!-- Card 1: Menu -->
+    <g transform="translate(0, 0)">
+      <rect width="395" height="420" rx="20" fill="#FBF8F3" stroke="#3C150C" stroke-opacity="0.1" stroke-width="1.5" class="shadow-card"/>
+      <rect width="395" height="6" rx="3" fill="#3C150C"/>
+      
+      <rect x="32" y="35" width="60" height="60" rx="16" fill="#FFFFFF" stroke="#3C150C" stroke-opacity="0.1"/>
+      <text x="62" y="74" font-size="28" text-anchor="middle">ðŸ“œ</text>
+
+      <text x="32" y="130" class="font-brand" font-size="21" fill="#3C150C">DAFTAR MENU &amp; HARGA</text>
+      <text x="32" y="160" class="font-body" font-size="14" fill="#695E59">
+        <tspan x="32" dy="0">Jelajahi seluruh varian minuman kopi,</tspan>
+        <tspan x="32" dy="22">racikan signature, teh buah segar,</tspan>
+        <tspan x="32" dy="22">aneka snack, dan makanan berat.</tspan>
+      </text>
+
+      <!-- Checkpoints -->
+      <g transform="translate(32, 235)">
+        <circle cx="6" cy="6" r="4" fill="#996A3D"/>
+        <text x="18" y="10" class="font-body" font-size="13" font-weight="700" fill="#3C150C">Lihat daftar menu lengkap &amp; harga resmi</text>
+        
+        <circle cx="6" cy="34" r="4" fill="#996A3D"/>
+        <text x="18" y="38" class="font-body" font-size="13" font-weight="700" fill="#3C150C">Lihat detail komposisi &amp; profil rasa</text>
+
+        <circle cx="6" cy="62" r="4" fill="#996A3D"/>
+        <text x="18" y="66" class="font-body" font-size="13" font-weight="700" fill="#3C150C">Pesan langsung via WhatsApp &amp; Estimator</text>
+      </g>
+
+      <!-- Bottom Button -->
+      <g transform="translate(32, 345)">
+        <rect width="331" height="46" rx="12" fill="#3C150C"/>
+        <text x="165" y="28" class="font-body" font-size="14" font-weight="800" fill="#F2C791" text-anchor="middle">Buka Menu Lengkap â†’</text>
+      </g>
+    </g>
+
+    <!-- Card 2: Lokasi -->
+    <g transform="translate(422, 0)">
+      <rect width="395" height="420" rx="20" fill="#FBF8F3" stroke="#3C150C" stroke-opacity="0.1" stroke-width="1.5" class="shadow-card"/>
+      <rect width="395" height="6" rx="3" fill="#996A3D"/>
+      
+      <rect x="32" y="35" width="60" height="60" rx="16" fill="#FFFFFF" stroke="#3C150C" stroke-opacity="0.1"/>
+      <text x="62" y="74" font-size="28" text-anchor="middle">ðŸ“</text>
+
+      <text x="32" y="130" class="font-brand" font-size="21" fill="#3C150C">LOKASI &amp; JAM BUKA</text>
+      <text x="32" y="160" class="font-body" font-size="14" fill="#695E59">
+        <tspan x="32" dy="0">Temukan alamat lengkap kami di Blimbing</tspan>
+        <tspan x="32" dy="22">Malang, cek status operasional live,</tspan>
+        <tspan x="32" dy="22">peta rute, dan fasilitas coffeeshop.</tspan>
+      </text>
+
+      <!-- Checkpoints -->
+      <g transform="translate(32, 235)">
+        <circle cx="6" cy="6" r="4" fill="#996A3D"/>
+        <text x="18" y="10" class="font-body" font-size="13" font-weight="700" fill="#3C150C">Alamat lengkap di Jl. Letjen S. Parman</text>
+        
+        <circle cx="6" cy="34" r="4" fill="#996A3D"/>
+        <text x="18" y="38" class="font-body" font-size="13" font-weight="700" fill="#3C150C">Peta interaktif &amp; petunjuk arah Google Maps</text>
+
+        <circle cx="6" cy="62" r="4" fill="#996A3D"/>
+        <text x="18" y="66" class="font-body" font-size="13" font-weight="700" fill="#3C150C">Jam buka &amp; status live Buka / Tutup</text>
+      </g>
+
+      <!-- Bottom Button -->
+      <g transform="translate(32, 345)">
+        <rect width="331" height="46" rx="12" fill="#3C150C"/>
+        <text x="165" y="28" class="font-body" font-size="14" font-weight="800" fill="#F2C791" text-anchor="middle">Buka Informasi Lokasi â†’</text>
+      </g>
+    </g>
+
+    <!-- Card 3: Tentang Kami -->
+    <g transform="translate(845, 0)">
+      <rect width="395" height="420" rx="20" fill="#FBF8F3" stroke="#3C150C" stroke-opacity="0.1" stroke-width="1.5" class="shadow-card"/>
+      <rect width="395" height="6" rx="3" fill="#F2C791"/>
+      
+      <rect x="32" y="35" width="60" height="60" rx="16" fill="#FFFFFF" stroke="#3C150C" stroke-opacity="0.1"/>
+      <text x="62" y="74" font-size="28" text-anchor="middle">â˜•</text>
+
+      <text x="32" y="130" class="font-brand" font-size="21" fill="#3C150C">TENTANG HAMUR TUAN</text>
+      <text x="32" y="160" class="font-body" font-size="14" fill="#695E59">
+        <tspan x="32" dy="0">Kisah di balik berdirinya coffeeshop sejak</tspan>
+        <tspan x="32" dy="22">Mei 2020, filosofi bahasa walikan khas</tspan>
+        <tspan x="32" dy="22">Malang, visi misi, &amp; visual GSM.</tspan>
+      </text>
+
+      <!-- Checkpoints -->
+      <g transform="translate(32, 235)">
+        <circle cx="6" cy="6" r="4" fill="#996A3D"/>
+        <text x="18" y="10" class="font-body" font-size="13" font-weight="700" fill="#3C150C">Cerita berdirinya Hamur Tuan Mei 2020</text>
+        
+        <circle cx="6" cy="34" r="4" fill="#996A3D"/>
+        <text x="18" y="38" class="font-body" font-size="13" font-weight="700" fill="#3C150C">Filosofi "Hamur" &amp; penghormatan "Tuan"</text>
+
+        <circle cx="6" cy="62" r="4" fill="#996A3D"/>
+        <text x="18" y="66" class="font-body" font-size="13" font-weight="700" fill="#3C150C">Visi, misi &amp; standar mutu pelayanan</text>
+      </g>
+
+      <!-- Bottom Button -->
+      <g transform="translate(32, 345)">
+        <rect width="331" height="46" rx="12" fill="#3C150C"/>
+        <text x="165" y="28" class="font-body" font-size="14" font-weight="800" fill="#F2C791" text-anchor="middle">Baca Cerita Kami â†’</text>
+      </g>
+    </g>
+  </g>
+</svg>

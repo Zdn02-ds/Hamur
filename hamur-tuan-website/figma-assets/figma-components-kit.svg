@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1200" width="1440" height="1200">
+  <defs>
+    <style>
+      .brand-txt { font-family: 'Montserrat', sans-serif; font-weight: 900; fill: #F2C791; text-transform: uppercase; }
+      .nav-item { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; font-size: 14px; fill: #F2F7FD; }
+      .card-title { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 18px; fill: #3C150C; }
+      .card-sub { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px; fill: #695E59; }
+      .btn-txt-dark { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 14px; fill: #3C150C; }
+      .btn-txt-light { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 14px; fill: #FFFFFF; }
+      .sec-hdr { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 22px; fill: #3C150C; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1200" fill="#F4EFEA"/>
+
+  <!-- Board Title -->
+  <text x="60" y="60" class="sec-hdr" font-size="28">HAMUR TUAN — FIGMA MASTER UI COMPONENTS</text>
+  <text x="60" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#996A3D">Vector Components Ready to Drag &amp; Drop into Figma</text>
+
+  <!-- ================= COMPONENT 1: NAVBAR (Width: 1320px) ================= -->
+  <g transform="translate(60, 110)">
+    <rect width="1320" height="80" rx="16" fill="#3C150C"/>
+    
+    <!-- Brand Logo Lockup -->
+    <g transform="translate(24, 15)">
+      <!-- Mini House Icon -->
+      <path d="M 25 5 L 45 20 L 45 45 L 5 45 L 5 20 Z" fill="#F2C791"/>
+      <text x="55" y="24" class="brand-txt" font-size="18" letter-spacing="2">HAMUR TUAN</text>
+      <text x="55" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#F2F7FD" letter-spacing="1">COFFEESHOP MALANG</text>
+    </g>
+
+    <!-- Nav Items -->
+    <g transform="translate(480, 45)">
+      <text x="0" y="0" class="nav-item" fill="#F2C791" font-weight="800">Home</text>
+      <line x1="0" y1="8" x2="42" y2="8" stroke="#F2C791" stroke-width="2"/>
+      <text x="80" y="0" class="nav-item">Pilih Info</text>
+      <text x="180" y="0" class="nav-item">Menu &amp; Harga</text>
+      <text x="310" y="0" class="nav-item">Lokasi</text>
+      <text x="400" y="0" class="nav-item">Tentang Kami</text>
+      <text x="530" y="0" class="nav-item">Kontak</text>
+    </g>
+
+    <!-- Right Action CTA -->
+    <g transform="translate(1140, 20)">
+      <rect width="150" height="40" rx="20" fill="#F2C791"/>
+      <text x="28" y="25" class="btn-txt-dark">Pesan Sekarang</text>
+    </g>
+  </g>
+
+  <!-- ================= COMPONENT 2: BUTTON VARIANTS ================= -->
+  <g transform="translate(60, 240)">
+    <text x="0" y="0" class="sec-hdr" font-size="18">Button Variants (Interactive Tokens)</text>
+
+    <!-- Primary Pill -->
+    <g transform="translate(0, 20)">
+      <rect width="180" height="48" rx="24" fill="#F2C791"/>
+      <text x="32" y="30" class="btn-txt-dark">Primary Action</text>
+    </g>
+
+    <!-- Dark Pill -->
+    <g transform="translate(200, 20)">
+      <rect width="180" height="48" rx="24" fill="#3C150C"/>
+      <text x="30" y="30" class="brand-txt" font-size="14">Secondary Dark</text>
+    </g>
+
+    <!-- Outline Pill -->
+    <g transform="translate(400, 20)">
+      <rect width="180" height="48" rx="24" fill="none" stroke="#3C150C" stroke-width="2"/>
+      <text x="45" y="30" class="btn-txt-dark">Outline Pill</text>
+    </g>
+
+    <!-- WhatsApp Green -->
+    <g transform="translate(600, 20)">
+      <rect width="210" height="48" rx="24" fill="#25D366"/>
+      <text x="38" y="30" class="btn-txt-light">Chat WhatsApp Kasir</text>
+    </g>
+
+    <!-- Live Status Open Badge -->
+    <g transform="translate(830, 20)">
+      <rect width="150" height="48" rx="24" fill="rgba(34, 197, 94, 0.15)" stroke="#22C55E" stroke-width="1.5"/>
+      <circle cx="28" cy="24" r="5" fill="#22C55E"/>
+      <text x="42" y="29" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="13" fill="#15803D">SEDANG BUKA</text>
+    </g>
+
+    <!-- Live Status Closed Badge -->
+    <g transform="translate(1000, 20)">
+      <rect width="150" height="48" rx="24" fill="rgba(239, 68, 68, 0.15)" stroke="#EF4444" stroke-width="1.5"/>
+      <circle cx="28" cy="24" r="5" fill="#EF4444"/>
+      <text x="42" y="29" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="13" fill="#B91C1C">SEDANG TUTUP</text>
+    </g>
+  </g>
+
+  <!-- ================= COMPONENT 3: PILIH INFORMASI (BRANCH CARD) ================= -->
+  <g transform="translate(60, 360)">
+    <text x="0" y="0" class="sec-hdr" font-size="18">Pilih Informasi — Branch Card (Flowchart Hub)</text>
+
+    <g transform="translate(0, 20)">
+      <rect width="380" height="340" rx="20" fill="#FFFFFF" stroke="#3C150C" stroke-width="1" stroke-opacity="0.12"/>
+      <!-- Top Accent Line -->
+      <rect width="380" height="6" rx="3" fill="#3C150C"/>
+      
+      <!-- Icon Circle -->
+      <rect x="30" y="35" width="56" height="56" rx="14" fill="#F4EFEA"/>
+      <text x="47" y="72" font-size="24">📜</text>
+
+      <text x="30" y="130" class="card-title">DAFTAR MENU &amp; HARGA</text>
+      <text x="30" y="160" class="card-sub">Jelajahi seluruh varian menu kopi,</text>
+      <text x="30" y="180" class="card-sub">signature mocktail, teh, dan aneka snack.</text>
+
+      <!-- Checklist -->
+      <circle cx="36" cy="216" r="4" fill="#996A3D"/>
+      <text x="48" y="220" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#3C150C">Lihat daftar menu &amp; harga resmi</text>
+      
+      <circle cx="36" cy="242" r="4" fill="#996A3D"/>
+      <text x="48" y="246" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#3C150C">Detail informasi produk &amp; komposisi</text>
+
+      <!-- Bottom Button -->
+      <rect x="30" y="275" width="320" height="44" rx="12" fill="#3C150C"/>
+      <text x="120" y="302" class="brand-txt" font-size="13">Buka Menu Lengkap →</text>
+    </g>
+  </g>
+
+  <!-- ================= COMPONENT 4: MENU ITEM CARD ================= -->
+  <g transform="translate(480, 360)">
+    <text x="0" y="0" class="sec-hdr" font-size="18">Menu Item Card (Auto Layout Spec)</text>
+
+    <g transform="translate(0, 20)">
+      <rect width="320" height="420" rx="20" fill="#FFFFFF" stroke="#3C150C" stroke-width="1" stroke-opacity="0.12"/>
+      
+      <!-- Image Placeholder -->
+      <rect width="320" height="190" rx="20" fill="#3C150C"/>
+      <!-- Clip bottom corners for image -->
+      <rect y="170" width="320" height="20" fill="#3C150C"/>
+      <text x="95" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#F2C791">Foto Menu (220px)</text>
+
+      <!-- Badge Overlay -->
+      <rect x="14" y="14" width="90" height="26" rx="13" fill="#3C150C"/>
+      <text x="24" y="31" class="brand-txt" font-size="10">BEST SELLER</text>
+
+      <!-- Category & Title -->
+      <text x="20" y="225" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#996A3D" letter-spacing="1">SIGNATURE COFFEE</text>
+      <text x="20" y="250" class="card-title" font-size="17">Kokuto Latte Aren</text>
+      <text x="20" y="275" class="card-sub" font-size="12">Kopi susu gula aren premium ala Jepang</text>
+      <text x="20" y="292" class="card-sub" font-size="12">dengan rasa legit smoky yang harum.</text>
+
+      <line x1="20" y1="320" x2="300" y2="320" stroke="#3C150C" stroke-width="1" stroke-opacity="0.1"/>
+
+      <!-- Price & Actions -->
+      <text x="20" y="355" font-family="'Montserrat', sans-serif" font-weight="900" font-size="18" fill="#3C150C">Rp 18.000</text>
+
+      <rect x="175" y="335" width="60" height="32" rx="8" fill="#F4EFEA"/>
+      <text x="187" y="356" class="btn-txt-dark" font-size="12">Detail</text>
+
+      <rect x="245" y="335" width="55" height="32" rx="8" fill="#3C150C"/>
+      <text x="254" y="356" class="brand-txt" font-size="11">+ Pesan</text>
+    </g>
+  </g>
+
+  <!-- ================= COMPONENT 5: DETAIL MODAL WIREFRAME ================= -->
+  <g transform="translate(840, 360)">
+    <text x="0" y="0" class="sec-hdr" font-size="18">Product Detail Modal Overlay</text>
+
+    <g transform="translate(0, 20)">
+      <rect width="540" height="380" rx="20" fill="#FFFFFF" stroke="#3C150C" stroke-width="1.5"/>
+
+      <!-- Modal Image Column -->
+      <rect width="220" height="380" rx="20" fill="#2B0E07"/>
+      <rect x="200" width="20" height="380" fill="#2B0E07"/>
+      <text x="45" y="195" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#F2C791">Foto High-Res</text>
+
+      <!-- Modal Info Column -->
+      <text x="245" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#996A3D" letter-spacing="1">DETAIL PRODUK</text>
+      <text x="245" y="75" class="card-title" font-size="20">Mie Hamur Tuan</text>
+      <text x="245" y="105" font-family="'Montserrat', sans-serif" font-weight="900" font-size="20" fill="#3C150C">Rp 18.000</text>
+      
+      <text x="245" y="135" class="card-sub" font-size="11">Mie kenyal berbumbu chili oil aromatik,</text>
+      <text x="245" y="152" class="card-sub" font-size="11">topping ayam suwir, telur, &amp; pangsit krispi.</text>
+
+      <!-- Tasting Notes Tags -->
+      <rect x="245" y="175" width="270" height="50" rx="10" fill="#FBF8F3"/>
+      <text x="255" y="195" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#3C150C">TASTING NOTES:</text>
+      <text x="255" y="213" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#996A3D">Chili Oil • Savory Chicken • Crispy</text>
+
+      <!-- Hot / Ice Selector -->
+      <rect x="245" y="240" width="130" height="32" rx="8" fill="#3C150C"/>
+      <text x="270" y="261" class="brand-txt" font-size="11">🧊 Dingin (Ice)</text>
+
+      <rect x="385" y="240" width="130" height="32" rx="8" fill="#F4EFEA"/>
+      <text x="410" y="261" class="btn-txt-dark" font-size="11">☕ Panas (Hot)</text>
+
+      <!-- Action Buttons -->
+      <rect x="245" y="300" width="130" height="44" rx="10" fill="#25D366"/>
+      <text x="265" y="327" class="btn-txt-light" font-size="12">Pesan via WA</text>
+
+      <rect x="385" y="300" width="130" height="44" rx="10" fill="#3C150C"/>
+      <text x="408" y="327" class="brand-txt" font-size="12">+ Keranjang</text>
+    </g>
+  </g>
+
+  <!-- ================= COMPONENT 6: FOOTER SUMMARY ================= -->
+  <g transform="translate(60, 830)">
+    <rect width="1320" height="120" rx="16" fill="#120402"/>
+    <text x="40" y="50" class="brand-txt" font-size="20">HAMUR TUAN COFFEESHOP</text>
+    <text x="40" y="75" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#FAF6F0">Jl. Letjen S. Parman No. 56, Blimbing, Kota Malang • Telp: +62 889-8953-8573</text>
+    <text x="40" y="95" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#996A3D">Owner: Bapak Ilyas Shaso Pratama | Visual Identity: Ekawidi Prasetia</text>
+    <text x="1100" y="70" class="brand-txt" font-size="13">© 2026 ALL RIGHTS RESERVED</text>
+  </g>
+</svg>

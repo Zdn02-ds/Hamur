@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850">
+  <defs>
+    <style>
+      .title { font-family: 'Montserrat', sans-serif; font-weight: 900; fill: #3C150C; }
+      .subtitle { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; fill: #996A3D; font-size: 14px; }
+      .section-hdr { font-family: 'Montserrat', sans-serif; font-weight: 800; fill: #3C150C; font-size: 20px; }
+      .label { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 14px; }
+      .code { font-family: 'Courier New', monospace; font-size: 12px; }
+      .desc { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; fill: #695E59; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="850" fill="#FBF8F3" rx="20"/>
+
+  <!-- Board Header -->
+  <text x="60" y="70" class="title" font-size="32" letter-spacing="2">HAMUR TUAN — FIGMA DESIGN TOKENS</text>
+  <text x="60" y="100" class="subtitle">Graphic Standard Manual (GSM) Visual Identity &amp; UI System Specs</text>
+  <line x1="60" y1="120" x2="1140" y2="120" stroke="#3C150C" stroke-width="2" stroke-opacity="0.15"/>
+
+  <!-- ================= SECTION 1: COLOR PALETTE ================= -->
+  <text x="60" y="160" class="section-hdr">1. Color Styles (Fill Tokens)</text>
+
+  <!-- Color 1: Primary Brown -->
+  <g transform="translate(60, 180)">
+    <rect width="190" height="110" rx="12" fill="#3C150C"/>
+    <text x="0" y="135" class="label" fill="#1E1614">Primary Brown</text>
+    <text x="0" y="153" class="code" fill="#996A3D">HEX: #3C150C</text>
+    <text x="0" y="170" class="code" fill="#695E59">RGB: 60, 21, 12</text>
+    <text x="0" y="188" class="desc">Zinnwaldite • Kehangatan &amp; Keandalan</text>
+  </g>
+
+  <!-- Color 2: Caramel Brown -->
+  <g transform="translate(285, 180)">
+    <rect width="190" height="110" rx="12" fill="#996A3D"/>
+    <text x="0" y="135" class="label" fill="#1E1614">Caramel Brown</text>
+    <text x="0" y="153" class="code" fill="#996A3D">HEX: #996A3D</text>
+    <text x="0" y="170" class="code" fill="#695E59">RGB: 153, 106, 61</text>
+    <text x="0" y="188" class="desc">Secondary • Kenyamanan &amp; Keramahan</text>
+  </g>
+
+  <!-- Color 3: Peach Orange -->
+  <g transform="translate(510, 180)">
+    <rect width="190" height="110" rx="12" fill="#F2C791"/>
+    <text x="0" y="135" class="label" fill="#1E1614">Peach Orange</text>
+    <text x="0" y="153" class="code" fill="#996A3D">HEX: #F2C791</text>
+    <text x="0" y="170" class="code" fill="#695E59">RGB: 242, 199, 145</text>
+    <text x="0" y="188" class="desc">Accent • Kelembutan &amp; Emosional</text>
+  </g>
+
+  <!-- Color 4: Dark Charcoal -->
+  <g transform="translate(735, 180)">
+    <rect width="190" height="110" rx="12" fill="#050203"/>
+    <text x="0" y="135" class="label" fill="#1E1614">Dark Charcoal</text>
+    <text x="0" y="153" class="code" fill="#996A3D">HEX: #050203</text>
+    <text x="0" y="170" class="code" fill="#695E59">RGB: 5, 2, 3</text>
+    <text x="0" y="188" class="desc">Neutral Dark • Teks &amp; Kontras Maksimal</text>
+  </g>
+
+  <!-- Color 5: Soft White -->
+  <g transform="translate(960, 180)">
+    <rect width="180" height="110" rx="12" fill="#F2F7FD" stroke="#3C150C" stroke-width="1" stroke-opacity="0.15"/>
+    <text x="0" y="135" class="label" fill="#1E1614">Soft Off-White</text>
+    <text x="0" y="153" class="code" fill="#996A3D">HEX: #F2F7FD</text>
+    <text x="0" y="170" class="code" fill="#695E59">RGB: 242, 247, 253</text>
+    <text x="0" y="188" class="desc">Light Surface • Latar Belakang &amp; Kartu</text>
+  </g>
+
+  <!-- ================= SECTION 2: TYPOGRAPHY SYSTEM ================= -->
+  <line x1="60" y1="410" x2="1140" y2="410" stroke="#3C150C" stroke-width="1" stroke-opacity="0.15"/>
+  <text x="60" y="450" class="section-hdr">2. Typography Styles (Text Hierarchy)</text>
+
+  <!-- H1 Display -->
+  <g transform="translate(60, 480)">
+    <text x="0" y="30" font-family="'Montserrat', sans-serif" font-weight="900" font-size="36" fill="#3C150C" letter-spacing="2">H1 DISPLAY HERO (64px / 900)</text>
+    <text x="0" y="55" class="desc">Font: Montserrat / Lemon Milk • Weight: Black (900) • Tracking: +3px • Line Height: 110%</text>
+  </g>
+
+  <!-- H2 Section Title -->
+  <g transform="translate(60, 560)">
+    <text x="0" y="24" font-family="'Montserrat', sans-serif" font-weight="900" font-size="28" fill="#3C150C" letter-spacing="1">H2 SECTION TITLE (40px / 900)</text>
+    <text x="0" y="48" class="desc">Font: Montserrat • Weight: Black (900) • Tracking: +1px • Line Height: 120%</text>
+  </g>
+
+  <!-- H3 Card Title -->
+  <g transform="translate(60, 630)">
+    <text x="0" y="20" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="#3C150C">H3 CARD HEADING (22px / 800)</text>
+    <text x="0" y="40" class="desc">Font: Montserrat • Weight: ExtraBold (800) • Line Height: 130%</text>
+  </g>
+
+  <!-- Body Regular -->
+  <g transform="translate(60, 690)">
+    <text x="0" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-weight="400" font-size="16" fill="#1E1614">Body Regular (16px / 400) — Kenyamanan ala rumah dengan seduhan kopi otentik khas Malang.</text>
+    <text x="0" y="38" class="desc">Font: Plus Jakarta Sans • Weight: Regular (400) • Line Height: 160% • Color: #1E1614</text>
+  </g>
+
+  <!-- ================= SECTION 3: ELEVATION & CORNERS ================= -->
+  <g transform="translate(700, 450)">
+    <text x="0" y="0" class="section-hdr">3. Layout &amp; Radii</text>
+    
+    <g transform="translate(0, 30)">
+      <rect width="100" height="60" rx="8" fill="#FFFFFF" stroke="#3C150C" stroke-width="1" stroke-opacity="0.15"/>
+      <text x="120" y="25" class="label" fill="#1E1614">Radius Small: 8px</text>
+      <text x="120" y="45" class="desc">Tags, Pill Buttons, Inputs</text>
+    </g>
+
+    <g transform="translate(0, 110)">
+      <rect width="100" height="60" rx="16" fill="#FFFFFF" stroke="#3C150C" stroke-width="1" stroke-opacity="0.15"/>
+      <text x="120" y="25" class="label" fill="#1E1614">Radius Medium: 16px</text>
+      <text x="120" y="45" class="desc">Cards, Containers, Facility Boxes</text>
+    </g>
+
+    <g transform="translate(0, 190)">
+      <rect width="100" height="60" rx="24" fill="#FFFFFF" stroke="#3C150C" stroke-width="1" stroke-opacity="0.15"/>
+      <text x="120" y="25" class="label" fill="#1E1614">Radius Large: 24px</text>
+      <text x="120" y="45" class="desc">Hero Cards, Modal Popups, Drawers</text>
+    </g>
+
+    <g transform="translate(0, 270)">
+      <rect width="100" height="40" rx="20" fill="#3C150C"/>
+      <text x="120" y="20" class="label" fill="#1E1614">Radius Full (Pill): 999px</text>
+      <text x="120" y="36" class="desc">Badges, CTA Buttons, Tab Switchers</text>
+    </g>
+  </g>
+</svg>

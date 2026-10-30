@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamur Tuan Coffeeshop | Tempat Nongkrong Homie & Kopi Otentik Malang</title>
+  <meta name="description" content="Hamur Tuan adalah coffeeshop berkonsep ala rumah di Jl. Letjen S. Parman, Blimbing, Kota Malang. Tempat santai, homie, estetik dengan harga ramah kantong mahasiswa.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SITE HEADER / NAVBAR
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-link" aria-label="Hamur Tuan Home">
+        <img src="assets/images/logo.svg" alt="Logo Hamur Tuan" class="brand-logo-img">
+        <div class="brand-text-block">
+          <span class="brand-title">Hamur Tuan</span>
+          <span class="brand-sub">Coffeeshop Malang</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#pilih-informasi" class="nav-link">Pilih Info</a></li>
+          <li><a href="#menu" class="nav-link">Menu & Harga</a></li>
+          <li><a href="#lokasi" class="nav-link">Lokasi</a></li>
+          <li><a href="#tentang-kami" class="nav-link">Tentang Kami</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <!-- Cart Drawer Toggle -->
+        <button class="cart-toggle-btn" id="cartToggleBtn" aria-label="Buka Keranjang Pesanan">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-counter">0</span>
+        </button>
+
+        <!-- CTA Pesan -->
+        <a href="#menu" class="btn-header-cta">
+          <span>Pesan Sekarang</span>
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu Navigasi Mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       START: HOME PAGE (Hero Section sesuai konsep Contoh.jpg)
+       ========================================================================== -->
+  <main>
+    <section class="hero-section" id="home">
+      <div class="hero-bg-accent"></div>
+      <div class="container hero-grid">
+        <!-- Hero Text & Brand Info -->
+        <div class="hero-text-column">
+          <div class="hero-badge">
+            <span class="live-dot"></span>
+            <span>Coffeeshop Homie & Terjangkau Malang</span>
+          </div>
+
+          <h1 class="hero-title">
+            HAMUR TUAN
+            <span>OMAH KOPI</span>
+          </h1>
+
+          <p class="hero-tagline">
+            "Start your day with an authentic warmth of coffee."
+          </p>
+
+          <p class="hero-description">
+            Selamat datang di <strong>Hamur Tuan</strong>. Terinspirasi dari bahasa walikan khas Malang, 
+            <em>Hamur</em> berarti <strong>Rumah</strong> dan <em>Tuan</em> adalah cara kami menghormati setiap tamu 
+            yang hadir. Nikmati secangkir seduhan kopi istimewa, makanan lezat, dan suasana hangat bak rumah sendiri 
+            dengan harga ramah kantong pelajar & mahasiswa.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#menu" class="btn-primary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              <span>Lihat Menu & Harga</span>
+            </a>
+            <a href="#lokasi" class="btn-outline">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Lokasi & Jam Buka</span>
+            </a>
+          </div>
+
+          <!-- Social Media Strip (from wireframe Contoh.jpg) -->
+          <div class="hero-social-strip">
+            <span class="hero-social-label">Ikuti Kami:</span>
+            <div class="hero-social-icons">
+              <a href="https://instagram.com/kaaa.wp" target="_blank" class="social-icon-btn" title="Instagram Hamur Tuan">
+                <img src="assets/icons/instagram-167-svgrepo-com.svg" alt="Instagram">
+              </a>
+              <a href="https://tiktok.com" target="_blank" class="social-icon-btn" title="TikTok Hamur Tuan">
+                <img src="assets/icons/baseline-tiktok.svg" alt="TikTok">
+              </a>
+              <a href="https://wa.me/6288989538573?text=Halo%20Hamur%20Tuan" target="_blank" class="social-icon-btn" title="WhatsApp Customer Service">
+                <img src="assets/icons/whatsapp-svgrepo-com.svg" alt="WhatsApp">
+              </a>
+              <a href="mailto:ekawidiprasetia@gmail.com" class="social-icon-btn" title="Email Hamur Tuan">
+                <img src="assets/icons/gmail-cleaner.svg" alt="Email">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Image (Kettle Leher Angsa pour over) -->
+        <div class="hero-image-wrapper">
+          <div class="hero-img-card">
+            <img src="assets/images/hero-kettle.png" alt="Seduhan Kopi dengan Kettle Leher Angsa Hamur Tuan" class="hero-kettle-photo">
+            <div class="hero-img-overlay"></div>
+            
+            <div class="hero-img-badge-floating">
+              <div class="floating-icon-box">☕</div>
+              <div class="floating-badge-text">
+                <h4>Seduhan Manual & Barista Craft</h4>
+                <p>Biji kopi pilihan nusantara dengan aroma kuat & rasa memikat</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4 VALUE PILLARS (Why Hamur Tuan)
+         ========================================================================== -->
+    <section class="pillars-section">
+      <div class="container">
+        <div class="pillars-grid">
+          <div class="pillar-item">
+            <div class="pillar-icon">🏡</div>
+            <div class="pillar-content">
+              <h4>Suasana Homie</h4>
+              <p>Tempat yang nyaman, tenang, dan akrab bak berada di ruang keluarga rumah sendiri.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-icon">💰</div>
+            <div class="pillar-content">
+              <h4>Ramah Mahasiswa</h4>
+              <p>Harga menu mulai dari Rp 8.000 dengan porsi pas dan kualitas rasa premium terjamin.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-icon">💻</div>
+            <div class="pillar-content">
+              <h4>WFC & Belajar Ramah</h4>
+              <p>Dilengkapi stopkontak di setiap meja, Wi-Fi kencang, dan tempat duduk yang ergonomis.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-icon">☕</div>
+            <div class="pillar-content">
+              <h4>Racikan Otentik</h4>
+              <p>Dari Kopi Tubruk lokal, Shakerato segar, hingga Kokuto Latte gula aren yang legit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BRIEF FLOWCHART: PILIH INFORMASI (Interactive Hub)
+         Step 2 in Flowchart: Home Page -> Pilih Informasi
+         ========================================================================== -->
+    <section class="flow-step-section" id="pilih-informasi">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="section-pill-tag">Panduan Kunjungan</span>
+          <h2 class="section-title-large">PILIH INFORMASI</h2>
+          <p class="section-subtitle">
+            Sesuai alur kunjungan Anda, pilih salah satu informasi utama yang ingin Anda jelajahi di Hamur Tuan Coffeeshop:
+          </p>
+        </div>
+
+        <div class="info-branch-grid">
+          <!-- Branch 1: Menu -->
+          <div class="info-branch-card">
+            <div class="branch-icon-circle">📜</div>
+            <h3 class="branch-card-title">Daftar Menu & Harga</h3>
+            <p class="branch-card-desc">
+              Jelajahi seluruh varian minuman kopi, racikan signature, teh buah segar, susu lembut, aneka snack renyah, dan makanan berat mengenyangkan.
+            </p>
+            <ul class="branch-card-list">
+              <li><span class="dot"></span> Lihat daftar menu lengkap & harga resmi</li>
+              <li><span class="dot"></span> Lihat detail komposisi & profil rasa</li>
+              <li><span class="dot"></span> Pesan langsung via WhatsApp & Estimator</li>
+            </ul>
+            <a href="#menu" class="branch-btn-action">
+              <span>Buka Menu Lengkap</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+
+          <!-- Branch 2: Lokasi -->
+          <div class="info-branch-card">
+            <div class="branch-icon-circle">📍</div>
+            <h3 class="branch-card-title">Lokasi & Jam Buka</h3>
+            <p class="branch-card-desc">
+              Temukan alamat lengkap kami di Blimbing Malang, cek status buka secara real-time, rute Google Maps, serta fasilitas lengkap cafe.
+            </p>
+            <ul class="branch-card-list">
+              <li><span class="dot"></span> Alamat lengkap di Jl. Letjen S. Parman</li>
+              <li><span class="dot"></span> Peta interaktif & petunjuk arah rute</li>
+              <li><span class="dot"></span> Jam operasional & status buka hari ini</li>
+            </ul>
+            <a href="#lokasi" class="branch-btn-action">
+              <span>Buka Informasi Lokasi</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+
+          <!-- Branch 3: Tentang Kami -->
+          <div class="info-branch-card">
+            <div class="branch-icon-circle">☕</div>
+            <h3 class="branch-card-title">Tentang Hamur Tuan</h3>
+            <p class="branch-card-desc">
+              Kisah di balik berdirinya Hamur Tuan sejak Mei 2020, filosofi bahasa walikan khas Malang, visi & misi, serta pedoman visual identity (GSM).
+            </p>
+            <ul class="branch-card-list">
+              <li><span class="dot"></span> Cerita berdirinya Hamur Tuan Mei 2020</li>
+              <li><span class="dot"></span> Filosofi "Hamur" & penghormatan "Tuan"</li>
+              <li><span class="dot"></span> Visi, misi & standar mutu pelayanan</li>
+            </ul>
+            <a href="#tentang-kami" class="branch-btn-action">
+              <span>Baca Cerita Kami</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BRANCH 1: MENU (Lihat daftar & menu harga, detail informasi produk, CTA)
+         ========================================================================== -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="section-pill-tag">Buku Menu Hamur Tuan</span>
+          <h2 class="section-title-large">DAFTAR MENU & HARGA</h2>
+          <p class="section-subtitle">
+            Disajikan segar setiap hari dengan bahan baku bermutu tinggi dan racikan barista berpengalaman.
+          </p>
+        </div>
+
+        <!-- Filter & Search Toolbar -->
+        <div class="menu-filter-wrapper">
+          <div class="menu-filter-top">
+            <!-- Search Bar -->
+            <div class="search-input-box">
+              <svg class="search-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="text" id="menuSearchInput" placeholder="Cari menu favorit Anda (misal: Kokuto, Platter, Mie)..." aria-label="Cari menu">
+            </div>
+
+            <!-- Stats -->
+            <div class="menu-quick-stats" id="menuResultsCount">
+              Memuat menu...
+            </div>
+          </div>
+
+          <!-- Category Pill Buttons -->
+          <div class="category-tabs-row">
+            <button class="tab-pill-btn active" data-category="all">✨ Semua Menu</button>
+            <button class="tab-pill-btn" data-category="coffee">☕ Coffee Bar</button>
+            <button class="tab-pill-btn" data-category="mix">🍹 Mix Specialties</button>
+            <button class="tab-pill-btn" data-category="tea">🍵 Artisan Tea</button>
+            <button class="tab-pill-btn" data-category="milk">🥛 Specialty Milk</button>
+            <button class="tab-pill-btn" data-category="snack">🍟 Snack & Bites</button>
+            <button class="tab-pill-btn" data-category="food">🍛 Main Course Food</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Menu Cards Grid -->
+        <div class="menu-items-grid" id="menuItemsGrid">
+          <!-- Injected via JavaScript from menu-data.js -->
+        </div>
+
+        <!-- Menu Bottom Note -->
+        <div style="margin-top: 40px; text-align: center; color: var(--c-text-muted); font-size: 0.9rem;">
+          <p>💡 <em>Klik tombol <strong>Detail</strong> pada setiap kartu untuk melihat profil rasa, bahan, serta pilihan panas/dingin.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BRANCH 2: LOKASI (Lihat alamat, peta, dan jam operasional -> CTA)
+         ========================================================================== -->
+    <section class="location-section" id="lokasi">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="section-pill-tag">Kunjungi Kami</span>
+          <h2 class="section-title-large">LOKASI & JAM OPERASIONAL</h2>
+          <p class="section-subtitle">
+            Singgah dan nikmati suasana hangat coffeeshop kami yang strategis di kawasan Blimbing, Kota Malang.
+          </p>
+        </div>
+
+        <div class="location-grid-layout">
+          <!-- Information Column -->
+          <div class="location-info-column">
+            <!-- Address Card -->
+            <div class="location-card">
+              <div class="location-card-header">
+                <div class="location-card-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <h3 class="location-card-title">Alamat Coffeeshop</h3>
+              </div>
+              <p class="location-address-text">
+                <strong>Hamur Tuan Coffeeshop</strong><br>
+                Jl. Letjen S. Parman No. 56, Kel. Purwantoro, Kec. Blimbing, Kota Malang, Jawa Timur 65126
+              </p>
+              <p class="location-subtext">
+                📍 <strong>Patokan Lokasi:</strong> Berada di jalan protokol penghubung pusat kota Malang, mudah diakses kendaraan roda dua maupun roda empat dengan tempat parkir aman dan nyaman.
+              </p>
+              <a href="https://maps.google.com/?q=Hamur+Tuan+Jl+Letjen+S+Parman+Blimbing+Malang" target="_blank" class="btn-open-maps">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+                <span>Buka Petunjuk Arah di Google Maps</span>
+              </a>
+            </div>
+
+            <!-- Operational Hours Card with Live Status -->
+            <div class="location-card">
+              <div class="location-card-header">
+                <div class="location-card-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <h3 class="location-card-title">Jam Operasional</h3>
+              </div>
+
+              <table class="hours-table">
+                <tbody>
+                  <tr>
+                    <td class="day">Senin – Kamis</td>
+                    <td class="time">10:00 – 23:00 WIB</td>
+                  </tr>
+                  <tr>
+                    <td class="day">Jumat</td>
+                    <td class="time">13:00 – 00:00 WIB</td>
+                  </tr>
+                  <tr>
+                    <td class="day">Sabtu – Minggu</td>
+                    <td class="time">10:00 – 00:00 WIB</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <!-- Real-time Status Badge -->
+              <div class="live-status-card">
+                <div>
+                  <span style="font-size: 0.82rem; color: var(--c-text-muted); display: block;">Status Saat Ini:</span>
+                  <div id="cafeLiveStatus" class="live-badge open">
+                    <span class="circle"></span> Sedang Buka
+                  </div>
+                </div>
+                <div id="cafeStatusNote" style="font-size: 0.88rem; font-weight: 700; color: var(--c-primary-brown);">
+                  Tutup pukul 23:00 WIB
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Map Column -->
+          <div class="location-map-column">
+            <!-- Google Maps Embed centered on Jl Letjen S Parman Blimbing Malang -->
+            <iframe 
+              class="map-iframe"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15805.864390642137!2d112.63412759999999!3d-7.9501579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629cb8c9676e1%3A0xe54d6501a37cceba!2sJl.%20Letjen%20S.%20Parman%2C%20Blimbing%2C%20Kec.%20Blimbing%2C%20Kota%20Malang%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Peta Lokasi Hamur Tuan Malang">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Facilities Row -->
+        <div class="facilities-row">
+          <div class="facility-card">
+            <div class="facility-icon">📶</div>
+            <h4 class="facility-title">Free High-Speed Wi-Fi</h4>
+            <p class="facility-desc">Koneksi internet cepat untuk tugas kuliah, rapat online, & streaming.</p>
+          </div>
+
+          <div class="facility-card">
+            <div class="facility-icon">🔌</div>
+            <h4 class="facility-title">Stopkontak di Tiap Meja</h4>
+            <p class="facility-desc">Daya baterai laptop & smartphone Anda selalu terjaga penuh.</p>
+          </div>
+
+          <div class="facility-card">
+            <div class="facility-icon">🍃</div>
+            <h4 class="facility-title">Indoor AC & Semi-Outdoor</h4>
+            <p class="facility-desc">Area non-smoking dingin ber-AC serta area santai semi-outdoor.</p>
+          </div>
+
+          <div class="facility-card">
+            <div class="facility-icon">🎸</div>
+            <h4 class="facility-title">Gitar Akustik & Games</h4>
+            <p class="facility-desc">Disediakan gitar dan aneka permainan kartu seru untuk nongkrong.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BRANCH 3: TENTANG KAMI (Informasi & cerita brand, GSM identity)
+         Flowchart Requirement: leads to "Pilih Halaman Lain" or CTA
+         ========================================================================== -->
+    <section class="about-section" id="tentang-kami">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="section-pill-tag">Cerita Brand Kami</span>
+          <h2 class="section-title-large">TENTANG HAMUR TUAN</h2>
+          <p class="section-subtitle">
+            Kisah tentang persahabatan, kecintaan pada kopi, dan rasa hangat seperti di rumah sendiri.
+          </p>
+        </div>
+
+        <!-- Story Grid -->
+        <div class="about-story-grid">
+          <!-- Visual Column -->
+          <div class="about-image-stack">
+            <img src="assets/images/hero-kettle.png" alt="Proses Seduhan Kopi Hamur Tuan" class="about-main-img">
+            <div class="about-badge-floating">
+              <h3>Est. 2020</h3>
+              <p>Didirikan di Kota Malang</p>
+            </div>
+          </div>
+
+          <!-- Story Text Content -->
+          <div class="about-content-block">
+            <h3 class="subtitle">Sejarah & Profil Singkat</h3>
+            <p class="about-lead-para">
+              Awal berdirinya Hamur Tuan dimulai pada bulan Mei tahun 2020. Diprakarsai oleh 4 orang sahabat 
+              dengan keahlian dan divisi kerja masing-masing di bawah kepemimpinan <strong>Bapak Ilyas Shaso Pratama</strong>.
+            </p>
+            <p class="about-body-para">
+              Hamur Tuan hadir dengan visi menawarkan konsep baru coffeeshop yang dapat dinikmati oleh semua kalangan. 
+              Meskipun berada di lokasi yang intim, Hamur Tuan berhasil menciptakan daya tarik tersendiri melalui suasana 
+              yang homie, harga yang ramah kantong, serta kualitas produk yang konsisten.
+            </p>
+
+            <!-- Philosophy Box -->
+            <div class="philosophy-boxes">
+              <div class="philosophy-card">
+                <h4>Makna "HAMUR"</h4>
+                <p>
+                  Berasal dari bahasa walikan khas Arema Malang (<em>Osob Kiwalan</em>), di mana kata <strong>RUMAH</strong> 
+                  dibalik menjadi <strong>HAMUR</strong>. Mencerminkan ruang yang senantiasa nyaman dan akrab bak rumah sendiri.
+                </p>
+              </div>
+
+              <div class="philosophy-card">
+                <h4>Makna "TUAN"</h4>
+                <p>
+                  Merupakan wujud etika santun dan penghormatan tulus kami kepada setiap tamu yang datang, 
+                  dilayani dengan ramah selayaknya tuan dan nyonya rumah.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vision & Mission Grid -->
+        <div class="vision-mission-grid">
+          <div class="vm-card">
+            <div class="vm-header">
+              <span class="vm-icon-tag">VISI</span>
+              <h3 class="vm-title">Visi Hamur Tuan</h3>
+            </div>
+            <p class="vm-desc">
+              "Menawarkan konsep baru coffeeshop dengan tujuan dapat dinikmati secara nyaman oleh semua kalangan masyarakat, pelajar, hingga mahasiswa."
+            </p>
+          </div>
+
+          <div class="vm-card">
+            <div class="vm-header">
+              <span class="vm-icon-tag">MISI</span>
+              <h3 class="vm-title">Misi Pelayanan Kami</h3>
+            </div>
+            <ul class="vm-list">
+              <li><span class="check">✔</span> Memberikan tempat yang cocok untuk semua usia dan kalangan.</li>
+              <li><span class="check">✔</span> Memberikan harga yang terjangkau tanpa mengurangi kualitas produk.</li>
+              <li><span class="check">✔</span> Menjaga tempat agar senantiasa nyaman dan bersih bak rumah sendiri.</li>
+              <li><span class="check">✔</span> Menjaga konsistensi cita rasa dan standar produk terbaik.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- GSM Visual Identity Highlight -->
+        <div style="margin-top: 50px; background: #fff; border-radius: 16px; padding: 32px; border: 1px solid var(--c-border);">
+          <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px;">
+            <div style="max-width: 600px;">
+              <span style="font-size: 0.78rem; font-weight: 800; color: var(--c-caramel-brown); letter-spacing: 1px; text-transform: uppercase;">Graphic Standard Manual (GSM)</span>
+              <h3 style="font-family: var(--font-brand); font-size: 1.35rem; color: var(--c-primary-brown); margin: 6px 0 10px;">Identitas Visual & Karakter Desain</h3>
+              <p style="font-size: 0.92rem; color: var(--c-text-muted); line-height: 1.6;">
+                Logo Hamur Tuan memadukan siluet rumah melengkung yang kokoh dengan monogram huruf <strong>"H"</strong> bergaya sulur batik klasik, 
+                dipadukan tipografi tegas <em>Lemon Milk</em> dan warna Zinnwaldite Brown (<code>#3C150C</code>) serta Peach Orange (<code>#F2C791</code>) yang melambangkan kehangatan, kestabilan, dan keramahan.
+              </p>
+            </div>
+            <img src="assets/images/logo.svg" alt="Logo Resmi Hamur Tuan" style="width: 90px; height: 90px;">
+          </div>
+        </div>
+
+        <!-- ==========================================================================
+             FLOWCHART DECISION NODE: "PILIH HALAMAN LAIN"
+             Sesuai brief diagram: Dari Tentang Kami -> Pilih halaman lain (Kembali ke Pilih Informasi/Menu/Lokasi)
+             ========================================================================== -->
+        <div class="switch-page-banner">
+          <div class="switch-content">
+            <h4>Ingin Melihat Informasi Lainnya?</h4>
+            <p>Pilih halaman yang ingin Anda tuju berikutnya atau pesan minuman favorit Anda sekarang:</p>
+          </div>
+          <div class="switch-buttons-group">
+            <a href="#menu" class="btn-switch btn-switch-primary">
+              <span>Buka Menu & Harga</span>
+            </a>
+            <a href="#lokasi" class="btn-switch btn-switch-outline">
+              <span>Cek Lokasi & Rute</span>
+            </a>
+            <a href="#pilih-informasi" class="btn-switch btn-switch-outline">
+              <span>Ke Pilihan Info</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FLOWCHART CTA STEP: GLOBAL CALL TO ACTION BANNER
+         Leading to End / Action: Hubungi WA, Reservasi, Pesan Delivery
+         ========================================================================== -->
+    <section class="cta-global-section" id="kontak">
+      <div class="container">
+        <div class="cta-box-inner">
+          <span class="section-pill-tag" style="background: rgba(242,199,145,0.2); color: var(--c-peach-orange);">Mari Mampir Hari Ini</span>
+          <h2>SEGERA NIKMATI SECANGKIR KEHANGATAN DI <span>HAMUR TUAN</span></h2>
+          <p>
+            Pintu rumah kami selalu terbuka untuk Anda. Pesan langsung untuk takeaway, reservasi tempat untuk kumpul tugas, 
+            atau pesan minuman favorit Anda sekarang juga via WhatsApp!
+          </p>
+
+          <div class="cta-actions-cluster">
+            <a href="https://wa.me/6288989538573?text=Halo%20Hamur%20Tuan,%20saya%20ingin%20memesan%20kopi%20dan%20reservasi%20tempat." target="_blank" class="btn-cta-wa">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              <span>Chat WhatsApp Kasir</span>
+            </a>
+
+            <a href="https://maps.google.com/?q=Hamur+Tuan+Jl+Letjen+S+Parman+Blimbing+Malang" target="_blank" class="btn-cta-maps">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Petunjuk Rute Lokasi</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       PRODUCT DETAIL MODAL (Lihat detail informasi produk)
+       ========================================================================== -->
+  <div class="modal-backdrop" id="productModalBackdrop" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Tutup Detail Menu">&times;</button>
+      
+      <div class="modal-grid">
+        <div class="modal-img-col">
+          <img src="assets/images/menu/tubruk-susu.jpg" alt="Foto Menu" class="modal-photo" id="modalPhoto">
+        </div>
+
+        <div class="modal-info-col">
+          <div class="modal-header-meta">
+            <span class="modal-category-tag" id="modalCategoryTag">COFFEE BAR</span>
+            <span class="menu-card-badge" id="modalBadge">Rekomendasi</span>
+          </div>
+
+          <h3 class="modal-title" id="modalTitle">Nama Menu</h3>
+          <div class="modal-price-big" id="modalPrice">Rp 18.000</div>
+          <p class="modal-description" id="modalDesc">Deskripsi detail produk...</p>
+
+          <!-- Hot/Ice Toggle -->
+          <div class="modal-temp-selector" id="modalTempGroup">
+            <div style="font-size: 0.8rem; font-weight: 800; text-transform: uppercase; margin-bottom: 8px; color: var(--c-primary-brown);">
+              Pilihan Suhu:
+            </div>
+            <div class="temp-toggle-group">
+              <button class="temp-btn active" id="modalBtnIce">🧊 Dingin (Ice)</button>
+              <button class="temp-btn" id="modalBtnHot">☕ Panas (Hot)</button>
+            </div>
+          </div>
+
+          <!-- Tasting Profile -->
+          <div class="modal-spec-block">
+            <div class="modal-spec-title">Karakter Rasa (Tasting Notes):</div>
+            <div class="tasting-tags-group" id="modalTastingTags">
+              <span class="tasting-pill">Smooth</span>
+            </div>
+          </div>
+
+          <!-- Ingredients -->
+          <div class="modal-spec-block" style="margin-top: -12px;">
+            <div class="modal-spec-title">Komposisi Bahan:</div>
+            <p style="font-size: 0.85rem; color: var(--c-text-muted);" id="modalIngredients">Bahan pilihan kualitas Hamur Tuan.</p>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="modal-action-row">
+            <button class="btn-modal-wa" id="modalBtnWa">
+              <span>Pesan via WA</span>
+            </button>
+            <button class="btn-modal-add" id="modalBtnAddCart">
+              <span>+ Keranjang</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       CART DRAWER (Order Summary Estimator)
+       ========================================================================== -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop">
+    <div class="cart-drawer">
+      <div class="cart-drawer-header">
+        <h3>Keranjang Pesanan</h3>
+        <button class="cart-drawer-close" id="cartDrawerClose">&times;</button>
+      </div>
+
+      <div class="cart-drawer-body" id="cartItemsList">
+        <!-- Rendered via JavaScript -->
+      </div>
+
+      <div class="cart-drawer-footer">
+        <div class="cart-subtotal-row">
+          <span>Subtotal:</span>
+          <span id="cartSubtotal">Rp 0</span>
+        </div>
+        <button class="cart-checkout-btn" id="cartCheckoutWaBtn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          <span>Kirim Pesanan ke WhatsApp</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FLOATING WHATSAPP BUTTON
+       ========================================================================== -->
+  <a href="https://wa.me/6288989538573?text=Halo%20Hamur%20Tuan,%20saya%20ingin%20tanya%20menu%20dan%20tempat." target="_blank" class="floating-wa-btn" aria-label="Chat WhatsApp Kasir">
+    <svg viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- ==========================================================================
+       SITE FOOTER (Official Credits & Socials)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <h4>Hamur Tuan</h4>
+          <p>
+            Coffeeshop berkonsep rumahan di Kota Malang. Menghadirkan kenyamanan, kehangatan, serta seduhan kopi berkualitas tinggi dengan harga ramah kantong.
+          </p>
+          <div class="hero-social-icons">
+            <a href="https://instagram.com/kaaa.wp" target="_blank" class="social-icon-btn" title="Instagram">
+              <img src="assets/icons/instagram-167-svgrepo-com.svg" alt="Instagram">
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="social-icon-btn" title="TikTok">
+              <img src="assets/icons/baseline-tiktok.svg" alt="TikTok">
+            </a>
+            <a href="https://wa.me/6288989538573" target="_blank" class="social-icon-btn" title="WhatsApp">
+              <img src="assets/icons/whatsapp-svgrepo-com.svg" alt="WhatsApp">
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links (Sesuai Flowchart) -->
+        <div class="footer-col">
+          <h5>Navigasi Alur</h5>
+          <ul class="footer-links">
+            <li><a href="#home">Home Page</a></li>
+            <li><a href="#pilih-informasi">Pilih Informasi</a></li>
+            <li><a href="#menu">Daftar Menu & Harga</a></li>
+            <li><a href="#lokasi">Lokasi & Jam Buka</a></li>
+            <li><a href="#tentang-kami">Tentang Hamur Tuan</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories -->
+        <div class="footer-col">
+          <h5>Menu Andalan</h5>
+          <ul class="footer-links">
+            <li><a href="#menu">Kopi Tubruk & Susu</a></li>
+            <li><a href="#menu">Kokuto Latte Aren</a></li>
+            <li><a href="#menu">Osaka Milktea</a></li>
+            <li><a href="#menu">Shakerato Fruity</a></li>
+            <li><a href="#menu">Mie Hamur Tuan</a></li>
+            <li><a href="#menu">Mix Platter Hamur</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info from GSM -->
+        <div class="footer-col">
+          <h5>Kontak & Operasional</h5>
+          <div class="footer-contact-item">
+            <span>📍</span>
+            <span>Jl. Letjen S. Parman, Blimbing, Kota Malang, Jawa Timur</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>📞</span>
+            <span>+62 889-8953-8573</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>✉️</span>
+            <span>ekawidiprasetia@gmail.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>⏰</span>
+            <span>Buka Setiap Hari (Mulai 10:00 / 13:00)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; 2026 <strong>Hamur Tuan Coffeeshop</strong>. All rights reserved.
+        </div>
+        <div class="footer-credits">
+          Owner: <strong>Bapak Ilyas Shaso Pratama</strong> | Visual Identity: <strong>Ekawidi Prasetia</strong>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/menu-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

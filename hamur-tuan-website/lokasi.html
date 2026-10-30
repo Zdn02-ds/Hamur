@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lokasi & Jam Buka | Hamur Tuan Coffeeshop Blimbing Malang</title>
+  <meta name="description" content="Alamat lengkap, peta Google Maps, dan jam buka Hamur Tuan Coffeeshop di Jl. Letjen S. Parman Blimbing, Kota Malang.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header scrolled">
+    <div class="container nav-container">
+      <a href="index.html#home" class="brand-link">
+        <img src="assets/images/logo.svg" alt="Logo Hamur Tuan" class="brand-logo-img">
+        <div class="brand-text-block">
+          <span class="brand-title">Hamur Tuan</span>
+          <span class="brand-sub">Coffeeshop Malang</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html#home" class="nav-link">Home</a></li>
+          <li><a href="index.html#pilih-informasi" class="nav-link">Pilih Info</a></li>
+          <li><a href="menu.html" class="nav-link">Menu & Harga</a></li>
+          <li><a href="lokasi.html" class="nav-link active">Lokasi</a></li>
+          <li><a href="tentang-kami.html" class="nav-link">Tentang Kami</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/6288989538573" target="_blank" class="btn-header-cta">
+          <span>Reservasi Tempat</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header Banner -->
+  <div style="background: linear-gradient(135deg, #2b0e07 0%, #3C150C 100%); padding: 140px 0 60px; color: #fff; text-align: center;">
+    <div class="container">
+      <span class="section-pill-tag" style="background: rgba(242,199,145,0.2); color: var(--c-peach-orange);">Panduan Arah & Kunjungan</span>
+      <h1 class="hero-title" style="font-size: 3rem; margin-top: 10px;">LOKASI & JAM OPERASIONAL</h1>
+      <p style="max-width: 650px; margin: 12px auto 0; color: rgba(242,247,253,0.85); font-size: 1.05rem;">
+        Temukan kami dengan mudah di Jl. Letjen S. Parman Blimbing, Kota Malang. Cek jam buka hari ini dan petunjuk arah ke Hamur Tuan.
+      </p>
+    </div>
+  </div>
+
+  <!-- Location Content -->
+  <main class="location-section" style="padding-top: 60px;">
+    <div class="container">
+      <div class="location-grid-layout">
+        <!-- Info Column -->
+        <div class="location-info-column">
+          <div class="location-card">
+            <div class="location-card-header">
+              <div class="location-card-icon">📍</div>
+              <h3 class="location-card-title">Alamat Lengkap</h3>
+            </div>
+            <p class="location-address-text">
+              <strong>Hamur Tuan Coffeeshop</strong><br>
+              Jl. Letjen S. Parman No. 56, Kel. Purwantoro, Kec. Blimbing, Kota Malang, Jawa Timur 65126
+            </p>
+            <p class="location-subtext">
+              Akses sangat strategis di jalan utama Kota Malang. Dekat dengan area sekolah, kampus, hotel, dan perkantoran, memudahkan Anda untuk nongkrong santai maupun WFC.
+            </p>
+            <a href="https://maps.google.com/?q=Hamur+Tuan+Jl+Letjen+S+Parman+Blimbing+Malang" target="_blank" class="btn-open-maps">
+              Buka di Aplikasi Google Maps &rarr;
+            </a>
+          </div>
+
+          <div class="location-card">
+            <div class="location-card-header">
+              <div class="location-card-icon">⏰</div>
+              <h3 class="location-card-title">Jam Buka Cafe</h3>
+            </div>
+            <table class="hours-table">
+              <tbody>
+                <tr>
+                  <td class="day">Senin – Kamis</td>
+                  <td class="time">10:00 – 23:00 WIB</td>
+                </tr>
+                <tr>
+                  <td class="day">Jumat</td>
+                  <td class="time">13:00 – 00:00 WIB</td>
+                </tr>
+                <tr>
+                  <td class="day">Sabtu – Minggu</td>
+                  <td class="time">10:00 – 00:00 WIB</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="live-status-card">
+              <div>
+                <span style="font-size: 0.8rem; color: var(--c-text-muted);">Status Realtime:</span>
+                <div id="cafeLiveStatus" class="live-badge open">
+                  <span class="circle"></span> Sedang Buka
+                </div>
+              </div>
+              <div id="cafeStatusNote" style="font-size: 0.88rem; font-weight: 700; color: var(--c-primary-brown);">
+                Tutup pukul 23:00 WIB
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Column -->
+        <div class="location-map-column">
+          <iframe 
+            class="map-iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15805.864390642137!2d112.63412759999999!3d-7.9501579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629cb8c9676e1%3A0xe54d6501a37cceba!2sJl.%20Letjen%20S.%20Parman%2C%20Blimbing%2C%20Kec.%20Blimbing%2C%20Kota%20Malang%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Facilities -->
+      <div class="facilities-row" style="margin-top: 50px;">
+        <div class="facility-card">
+          <div class="facility-icon">📶</div>
+          <h4 class="facility-title">Free Wi-Fi High Speed</h4>
+          <p class="facility-desc">Stabil untuk nugas, meeting Zoom, & santai.</p>
+        </div>
+        <div class="facility-card">
+          <div class="facility-icon">🔌</div>
+          <h4 class="facility-title">Stopkontak Banyak</h4>
+          <p class="facility-desc">Tersedia di meja indoor & outdoor.</p>
+        </div>
+        <div class="facility-card">
+          <div class="facility-icon">🛵</div>
+          <h4 class="facility-title">Parkir Luas & Aman</h4>
+          <p class="facility-desc">Kapasitas parkir motor & mobil nyaman.</p>
+        </div>
+        <div class="facility-card">
+          <div class="facility-icon">🎸</div>
+          <h4 class="facility-title">Gitar & Card Games</h4>
+          <p class="facility-desc">Bebas dimainkan untuk kumpul seru teman.</p>
+        </div>
+      </div>
+
+      <!-- Pilih Halaman Lain Switch Banner -->
+      <div class="switch-page-banner" style="margin-top: 60px;">
+        <div class="switch-content">
+          <h4>Ingin Melihat Informasi Lainnya?</h4>
+          <p>Lihat daftar menu lengkap atau baca cerita di balik berdirinya Hamur Tuan:</p>
+        </div>
+        <div class="switch-buttons-group">
+          <a href="menu.html" class="btn-switch btn-switch-primary">Buka Menu & Harga</a>
+          <a href="tentang-kami.html" class="btn-switch btn-switch-outline">Cerita Tentang Kami</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container" style="text-align: center;">
+      <p>&copy; 2026 Hamur Tuan Coffeeshop Malang. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/menu-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
